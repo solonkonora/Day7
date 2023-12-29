@@ -15,7 +15,33 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: 4rem;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
 
+.btn {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  display: flex;
+  transform: translateX(-50%);
+  text-decoration: none;
+  border:  #fff solid 0.2rem;
+  color: #fff;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  width: 15rem;
+  padding: 1.5rem;
+  font-weight: bold;
+}
 
 .container {
   position: relative;
