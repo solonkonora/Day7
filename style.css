@@ -3,9 +3,12 @@
 * {
   box-sizing: border-box;
 }
+
 :root {
   --left-bg-color: rgba(87, 84, 236, 0.7);
   --right-bg-color: rgba(43, 43, 43, 0.7);
+  --left-btn-hover-color: rgba(87, 84, 236, 1);
+  --right-btn-hover-color: rgba(28, 122, 28, 1);
 }
 
 body {
@@ -43,6 +46,16 @@ h1 {
   font-weight: bold;
 }
 
+.split.left .btn:hover {
+  background-color: var(--left-btn-hover-color);
+  border-color: var(--left-btn-hover-color);
+}
+
+.split.right .btn:hover {
+  background-color: var(--right-btn-hover-color);
+  border-color: var(--right-btn-hover-color);
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -61,7 +74,6 @@ h1 {
 
 .split.left {
   left: 0;
-  background: url();
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -77,7 +89,6 @@ h1 {
 
 .split.right {
   right: 0;
-  background: url();
   background-size: cover;
   background-repeat: no-repeat;
 }
