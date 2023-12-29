@@ -5,10 +5,10 @@
 }
 
 :root {
-  --left-bg-color: rgba(87, 84, 236, 0.7);
-  --right-bg-color: rgba(43, 43, 43, 0.7);
-  --left-btn-hover-color: rgba(87, 84, 236, 1);
-  --right-btn-hover-color: rgba(28, 122, 28, 1);
+  --left-bg-color: #5754ecb3;
+  --right-bg-color: #2b2b2bb3;
+  --left-btn-hover-color: #5754ec;
+  --right-btn-hover-color: #1c7a1c;
   --hover-width: 75%;
   --other-width: 25%;
   --speed: 1000ms;
@@ -38,7 +38,7 @@ h1 {
   display: flex;
   transform: translateX(-50%);
   text-decoration: none;
-  border:  #fff solid 0.2rem;
+  border: #fff solid 0.2rem;
   color: #fff;
   font-size: 1rem;
   align-items: center;
@@ -127,7 +127,7 @@ h1 {
   width: var(--other-width);
 }
 
-@media(max-width: 800px) {
+@media (max-width: 800px) {
   h1 {
     font-size: 2rem;
   }
